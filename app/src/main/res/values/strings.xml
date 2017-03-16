@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GitDev</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="cant_refresh_developers">Can\'t refresh developers</string>
+    <string name="welcome_to_gitdev">Welcome to GitDev</string>
+    <string name="title_activity_profiles">ProfilesActivity</string>
+</resources>

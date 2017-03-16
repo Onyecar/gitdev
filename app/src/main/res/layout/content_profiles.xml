@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main_content"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.onyx.gitdev.profiles.ProfilesActivity"
+tools:showIn="@layout/activity_profiles">
+
+<!--
+    <include layout="@layout/fragment_all_orders"/>
+-->
+<fragment
+    android:id="@+id/order_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.onyx.gitdev.profiles.ProfilesFragment"
+    tools:layout="@layout/fragment_profiles"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    />
+
+</FrameLayout>
